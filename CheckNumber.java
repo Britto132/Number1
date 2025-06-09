@@ -4,6 +4,10 @@ public class CheckNumber{
         if(number>0){
             System.out.println("Number is positive");
         }
-
+        if (number<0) {
+            System.out.println("The Number Is Negative");
+        } else {
+            System.out.println("The Number Is Zero");
+        }
 }
 }
